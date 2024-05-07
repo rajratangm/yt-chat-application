@@ -10,7 +10,7 @@ import { persistStore } from 'redux-persist';
 
 let persistor = persistStore(store);
 
-export const BASE_URL="https://yt-chat-application-jn73.onrender.com"
+export const BASE_URL="http://localhot:8080"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
